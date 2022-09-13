@@ -1,5 +1,9 @@
 # Huawei Cloud - CCE Service - Awake/Hibernate Master and Workers Nodes
 
+## Description
+
+The Python Scripts allows to Awake and Hibernate a CCE cluster (Master and Workers Nodes) in a particular Project/Region.
+
 ## Requirements
 
 The scripts uses the following SDK's from Huawei Cloud Repository -> https://github.com/huaweicloud/huaweicloud-sdk-python-v3
@@ -9,6 +13,8 @@ huaweicloud-sdk-ecs
 huaweicloud-sdk-core
 ```
 
+## Preparation
+
 Set the following variables in the main function of each script.
 ```
 AK : Access Key of your Huawei Cloud account
@@ -17,10 +23,6 @@ REGION : Region of your Huawei Cloud account
 PROJECT_ID : Project Id of your Huawei Cloud account
 CLUSTER_ID : Cluster Id of the CCE cluster you want to awake/hibernate
 ```
-
-## Description
-
-The Python Scripts allows to Awake and Hibernate a CCE cluster (Master and Workers Nodes) in a particular Project/Region.
 
 ## Execution
 
