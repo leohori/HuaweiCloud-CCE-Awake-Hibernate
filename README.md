@@ -26,11 +26,11 @@ The Python Scripts allows to Awake and Hibernate a CCE cluster (Master and Worke
 
 Awake a CCE cluster
 ```
-sh huaweicloud_cce_awake.sh
+python3 huaweicloud_cce_awake.py
 ```
 Hibernate a CCE cluster
 ```
-sh huaweicloud_cce_hibernate.sh
+python3 huaweicloud_cce_hibernate.py
 ```
 
 Enjoy!
